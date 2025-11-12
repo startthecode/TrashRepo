@@ -1,0 +1,33 @@
+/* sizes */
+// lg
+.input_lg label {
+  @apply text-lg;
+}
+.input_lg input {
+  @apply text-sm;
+}
+.input_lg .error {
+  @apply text-sm;
+}
+// sm
+.input_sm label {
+  @apply text-sm;
+}
+.input_sm input {
+  @apply text-sm;
+}
+.input_sm .error {
+  @apply text-xs;
+}
+
+.input_sm label {
+  @apply text-sm;
+}
+.input_sm input {
+  @apply text-sm;
+}
+.input_sm .error {
+  @apply text-xs;
+}
+
+
