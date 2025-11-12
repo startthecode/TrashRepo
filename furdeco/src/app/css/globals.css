@@ -1,0 +1,15 @@
+@import "tailwindcss";
+/* @import "./input.css"; */
+@import "./variables.css";
+
+@utility custom_radius {
+  border-radius: 20px;
+  background: red;
+}
+
+/* to create custom clases not works with lg:,hover: */
+/* @layer utilities {
+  .custom_bg {
+    @apply bg-red-950;
+  }
+} */

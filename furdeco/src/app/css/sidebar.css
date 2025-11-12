@@ -1,0 +1,42 @@
+@reference './globals.css';
+.sideBarMenu_item:hover,
+.sideBarMenu_item.active {
+  @apply bg-primary text-white;
+}
+.sideBarMenu_item {
+  @apply transition ease-linear mb-1 p-2 text-[1rem] rounded-md cursor-pointer;
+}
+
+.sideBarMenu_item svg path {
+  stroke-width: 1pxs;
+}
+.sideBarMenu_item:hover svg,
+.sideBarMenu_item.active svg {
+  @apply text-white;
+}
+
+.divider {
+  @apply w-full h-[1px] mt-5 mb-4 bg-border_1;
+}
+
+.sideBar {
+  @apply overflow-y-auto;
+  scrollbar-width: 1px;
+  scrollbar-color: theme("colors.gray.400") theme("colors.gray.100");
+
+  &::-webkit-scrollbar {
+    @apply w-[1pd];
+  }
+
+  &::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    @apply bg-gray-300 rounded-full;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-400;
+  }
+}

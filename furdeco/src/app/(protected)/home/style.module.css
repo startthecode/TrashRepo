@@ -1,0 +1,19 @@
+@reference '../../css/globals.css';
+.test {
+  @apply bg-red-500;
+}
+
+.homer_header {
+  @apply h-[250px] rounded-4xl w-full overflow-hidden object-cover object-center;
+}
+
+.wrapper {
+  @apply flex gap-4 px-4 mt-[-50px];
+}
+.profile_block {
+  @apply basis-3/12 bg-white rounded-2xl;
+}
+
+.detail_block {
+  @apply basis-9/12 bg-white rounded-2xl;
+}
